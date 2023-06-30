@@ -27,7 +27,8 @@ This benchmark can be run using the following commands:
    $ git clone https://github.com/JuliaLinhart/benchmark_flows
    $ pip install scikit-learn
    $ pip install zuko
-   $ benchopt install benchmark_flows -s zuko -d simulated
+   $ pip install nflows
+   $ benchopt install benchmark_flows -s zuko -s nflows -d simulated
    $ benchopt run benchmark_flows 
 
 Apart from the problem, options can be passed to ``benchopt run``, to restrict the benchmarks to some solvers or datasets, e.g.:
