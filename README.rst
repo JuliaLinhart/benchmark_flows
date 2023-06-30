@@ -10,7 +10,7 @@ Conditional density esrimators trained via Maximum Likelihood Estimation (MLE).
 They minimize the negative log-likelihood of the data under the model:
 
 
-$$\\min_{w} -\frac{1}{n}\sum_{i=1}^n\log f_w(X_i)$$
+$$\\min_{w} -\\frac{1}{n}\\sum_{i=1}^n\\log f_w(X_i)$$
 
 
 where $n$ stands for the number of data samples and $w$ are the model parameters. 
